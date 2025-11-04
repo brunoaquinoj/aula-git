@@ -1,0 +1,47 @@
+Introdução e conceitos
+1. Porque cada cópia do repositório contém todo o histórico e pode funcionar de forma independente.
+
+2. Working directory é onde editamos arquivos; staging area é onde preparamos para commit; repository é onde o histórico é salvo.
+
+3. Copia um repositório remoto para o computador local.
+
+4. Working directory são os arquivos na pasta; staging area e repository ficam na pasta oculta .git.
+
+5. Untracked, tracked, modified, staged e committed.
+
+6. Um arquivo novo é untracked, após git add vira staged, e depois do commit vira committed. Se alterado, volta a modified.
+
+Prática com Git Local
+Etapa 1 – Criar o repositório
+1 – R: Initialized empty Git repository. Indica que a pasta virou um repositório Git.
+
+Etapa 2 – Adicionar arquivo e commit
+1. Antes: untracked. Depois: staged.
+
+2. Untracked não é monitorado pelo Git. Tracked é monitorado.
+
+3. Registrar as alterações no histórico do repositório.
+
+4. Committed.
+
+Etapa 3 – Histórico e alterações
+1. Mostra as diferenças entre versões de arquivos.
+
+2. O commit mais recente na branch atual.
+
+Etapa 4 – Branches
+1. Com o comando git branch ou git status.
+
+2. As alterações da branch nova-feature são unidas à principal.
+
+Conectando ao GitHub
+1. Define o repositório remoto como padrão para os próximos pushes e pulls.
+
+2. Com o comando git remote -v.
+
+Encerramento e Discussão
+1. A etapa mais difícil foi usar o git e github, foi tão complicado pra mim que não consegui fazer a parte prática mesmo utilizando IA, como suporte.
+
+2. Permite controle de versões e trabalho simultâneo.
+
+3. Facilita backup e colaboração entre usuários.
