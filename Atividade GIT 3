@@ -1,0 +1,8 @@
+1. CI (Continuous Integration): integrar e testar o código automaticamente a cada push.
+CD (Continuous Delivery/Deployment): automatizar a entrega ou publicação do software.
+
+2-.github/workflows/
+
+3.O pipeline muda para o status Failed.
+E o deploy ou as próximas etapas não são executadas.
+Assim, erros são detectados cedo antes de chegar no usuário final.
