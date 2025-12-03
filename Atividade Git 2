@@ -1,0 +1,14 @@
+1- CD (Continuous Delivery/Deployment) é a automação da entrega de uma aplicação após os testes passarem.
+Ele complementa o CI:
+CI garante que o código é válido, compilando e testando a cada mudança.
+CD garante que o código validado chega automaticamente ao ambiente final, como GitHub Pages, servidores ou nuvem.
+
+2-Reduz erros humanos no processo de deploy, torna a entrega mais rápida e previsível, automatiza tarefas repetitivas, aumenta a qualidade e confiança no código, permite publicações frequentese facilita rollback (voltar uma versão anterior).
+
+🎯 Respostas finais da atividade
+1-CI verifica o código automaticamente (build + testes).
+CD pega esse código aprovado e entrega automaticamente em produção ou ambiente de publicação.
+
+2-O job de deploy não executaria, porque CD depende do sucesso do CI.
+
+3- Porque elimina passos manuais, reduzindo erros e garantindo que tudo que vai para produção fora testado antes, sempre da mesma forma, de forma previsível. Gerando confiança, estabilidade e segurança nas entregas.
